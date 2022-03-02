@@ -10,10 +10,6 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 
-cp /tmp/src/*.html ./
-DATE=`date +%Y-%d-%m`
-
-echo "THIS IS WAR $DATE" >>info.html
 
 
 ######## CUSTOMIZATION ENDS HERE ############
