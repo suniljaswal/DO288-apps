@@ -10,6 +10,7 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 cp -Rf /tmp/src/*.html ./
+cp -Rf /tmp/src/mail.py ./
 DATE=`date +%Y-%d-%y`
 echo " this is testing $DATE" >>info.html
 
